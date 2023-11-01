@@ -15,6 +15,6 @@ export class NinjasController {
     }
     @Get(':id')
     getninjsbyID(@Param('id') id:string){
-        return `geting ninja by id ${id}`;
+        return `geting ninja by id- ${id}`;
     }
 }
